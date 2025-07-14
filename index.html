@@ -24,10 +24,13 @@
       </div>
 
       <div class="mt-3 d-flex justify-content-center gap-3 flex-wrap">
-        <button onclick="playerMove(-1)" class="btn btn-light">◀️</button>
-        <button onmousedown="startSoftDrop()" onmouseup="stopSoftDrop()" ontouchstart="startSoftDrop()" ontouchend="stopSoftDrop()" class="btn btn-light">⬇️</button>
-        <button onclick="playerMove(1)" class="btn btn-light">▶️</button>
-        <button onclick="playerRotate(1)" class="btn btn-light">🔄</button>
+        <div class="mt-3 d-flex justify-content-center gap-3 flex-wrap">
+          <button onclick="playerMove(-1)" class="btn btn-light">◀️</button>
+          <button onmousedown="startSoftDrop()" onmouseup="stopSoftDrop()" ontouchstart="startSoftDrop()" ontouchend="stopSoftDrop()" class="btn btn-light">⬇️</button>
+          <button onclick="playerMove(1)" class="btn btn-light">▶️</button>
+          <button onclick="playerRotate(1)" class="btn btn-light">🔄</button>
+          <button onclick="playerHardDrop()" class="btn btn-danger">⏬</button>
+        </div>
       </div>
     </div>
 

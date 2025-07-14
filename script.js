@@ -281,14 +281,24 @@ function stopSoftDrop() {
   softDropActive = false;
 }
 
+function playerHardDrop() {
+  if (!isGameRunning || isPaused) return;
+  while (!collide(arena, player)) {
+    player.pos.y++;
+  }
+  player.pos.y--; // mundur 1 langkah karena sudah nabrak
+  merge(arena, player);
+  playerReset();
+  arenaSweep();
+  playSound("drop");
+  draw(); // gambar ulang langsung
+}
+
 document.addEventListener("keydown", (event) => {
   if (event.key === "ArrowLeft") playerMove(-1);
   else if (event.key === "ArrowRight") playerMove(1);
   else if (event.key === "ArrowDown") startSoftDrop();
   else if (event.key === "q") playerRotate(-1);
-  else if (event.key === "w") playerRotate(1);
-});
-
-document.addEventListener("keyup", (event) => {
-  if (event.key === "ArrowDown") stopSoftDrop();
+  else if (event.key === "e") playerRotate(1);
+  else if (event.code === "Space") playerHardDrop();
 });
