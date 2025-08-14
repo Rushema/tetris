@@ -37,3 +37,6 @@ Gunakan keyboard untuk bermain:
 ⬇️ ↓ : Turunkan blok lebih cepat
 
 Nikmati permainan dan kejar skor tertinggi!
+
+<img width="1319" height="737" alt="image" src="https://github.com/user-attachments/assets/059793de-19cf-4085-8ae2-464821c72155" />
+
