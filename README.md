@@ -1,4 +1,4 @@
-Selamat datang di proyek Tetris klasik yang dibuat menggunakan JavaScript dan HTML! Game ini dirancang agar berjalan langsung di browser tanpa perlu instalasi tambahan.
+Tetris klasik yang dibuat menggunakan JavaScript dan HTML! Game ini dirancang agar berjalan langsung di browser tanpa perlu instalasi tambahan.
 
 🚀 Fitur
 Gameplay Tetris klasik dengan kontrol keyboard
