@@ -11,12 +11,15 @@ Tampilan responsif dan ringan
 
 Efek visual saat baris dihancurkan
 
+
+
 🛠️ Teknologi yang Digunakan
 HTML5 – Struktur halaman dan canvas
 
 CSS3 – Styling dasar (jika ada)
 
 JavaScript (Vanilla) – Logika game, rendering, dan kontrol
+
 
 🎮 Cara Menjalankan
 Clone atau unduh repositori ini.
@@ -34,5 +37,3 @@ Gunakan keyboard untuk bermain:
 ⬇️ ↓ : Turunkan blok lebih cepat
 
 Nikmati permainan dan kejar skor tertinggi!
-
-📌 Catatan
